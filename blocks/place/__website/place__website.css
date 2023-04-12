@@ -1,0 +1,11 @@
+.place__website {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: start;
+}
+@media (max-width: 767px) {
+    .place__website {
+            margin: 0 16px;
+        }
+}

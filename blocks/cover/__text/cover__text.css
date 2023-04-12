@@ -1,0 +1,12 @@
+.cover__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    gap: 32px;
+}
+@media (max-width: 767px) {
+    .cover__text {
+            gap: 16px;
+        }
+}
