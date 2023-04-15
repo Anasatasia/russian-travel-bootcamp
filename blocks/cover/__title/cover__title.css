@@ -5,10 +5,13 @@
     font-size: 72px;
     line-height: 76px;
     text-align: center;
+    width: 560px;
 }
 @media (max-width: 767px) {
     .cover__title {
+            width: 288px;
             font-size: 32px;
             line-height: 35px;
+            text-align: center;
         }
 }

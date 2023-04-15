@@ -4,7 +4,9 @@
     font-size: 72px;
     line-height: 76px;
     color: #ffffff;
+    width: calc(100% - 24px);
 }
+
 @media (max-width: 1023px) {
     .place__title {
             font-size: 42px;
